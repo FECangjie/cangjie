@@ -1,0 +1,53 @@
+/*
+    默认数字键盘样式-q
+*/
+.keyboard {
+    z-index: 0324;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 247px;
+    display: block;
+    font-size: 24px
+}
+
+.keyboard-table {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 217px;
+    border-top: 1px solid #e7e7e7;
+    background-color: #FFF;
+    color: #323232
+}
+
+.keyboard-table td {
+    width: 33%;
+    height: 25%;
+    border: 1px solid #e7e7e7;
+    border-right: 0;
+    border-top: 0;
+    -webkit-touch-callout: none
+}
+
+.keyboard-table .td-disabled {
+    background-color: #f9f9f9;
+    cursor: not-allowed;
+}
+
+.keyboard-btn {
+    width: 100%;
+    height: 28px;
+    background-color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #e7e7e7;
+    color: #cecece;
+    line-height: 28px
+}
+
+.keyboard-table .iconfont {
+    font-size: 24px
+}
