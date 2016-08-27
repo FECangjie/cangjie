@@ -1,2 +1,2 @@
-# cangjie-mobile-js
+# cangjie-mobile
 mobile project function
