@@ -9,6 +9,7 @@
     var doc = document || window.document;
     var kb = {
         init: function(){
+            //初始化
         },
         load: function(input, options){
             //加载数字键盘
@@ -112,6 +113,7 @@
         }
     };
     window.kb = kb;
+    kb.init();
 }();
 
 +function () {
